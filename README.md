@@ -1,1 +1,3 @@
-# Spiking-Point-Transformer
+# Spiking-Point-Transformer(AAAI25)
+
+This is the official Pytorch implementation of the AAAI 2025 paper "Spiking Point Transformer for Point Cloud Classification".
