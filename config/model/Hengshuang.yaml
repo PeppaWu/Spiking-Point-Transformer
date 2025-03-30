@@ -1,0 +1,9 @@
+nneighbor: 16
+nblocks: 4
+blocks: [1, 1, 1, 1, 1]
+transformer_dim: 512
+name: Hengshuang
+timestep: 2
+spike_mode: "lif"       # None means ann. [option](if, lif, plif, elif)
+use_encoder: true       # true/false means whether to use Q-SDE 
+num_samples: 512        # number of points each timrstep

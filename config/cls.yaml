@@ -1,0 +1,18 @@
+batch_size: 2
+epoch: 200
+learning_rate: 0.001
+gpu: [0]
+num_point: 1024
+optimizer: AdamW
+weight_decay: 1e-4
+
+defaults:
+  - model: Hengshuang
+  - dataset: ModelNet40
+
+log_dir: /home/wupx/data/log/test
+hydra:
+  run:
+    dir: ${log_dir}/${model.name}
+  sweep:
+    dir: ${log_dir}

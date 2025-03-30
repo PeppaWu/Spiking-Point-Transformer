@@ -1,0 +1,9 @@
+numpy
+tqdm
+hydra-core==1.2
+omegaconf
+lava
+tensorboard
+cupy-cuda117
+h5py 
+globals
